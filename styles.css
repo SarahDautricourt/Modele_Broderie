@@ -1,0 +1,20 @@
+body{
+    background-color: #3e3d51;
+    color: #fff;
+}
+
+.mon_menu {
+    text-align: right;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h3:hover {
+    color: rgb(19, 211, 201);
+}
+
+#broderieCanvas {
+    background-color: white;
+}
