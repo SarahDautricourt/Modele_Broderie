@@ -1,0 +1,2936 @@
+[
+    {
+        "Id": "saumon-tres-leger",
+        "name": "Saumon très léger",
+        "hex": "#FFE2E2",
+        "codeDMC": "3713"
+    },
+    {
+        "Id": "saumon-leger",
+        "name": "Saumon Léger",
+        "hex": "#FFC9C9",
+        "codeDMC": "761"
+    },
+    {
+        "Id": "saumon",
+        "name": "Saumon",
+        "hex": "#F5ADAD",
+        "codeDMC": "760"
+    },
+    {
+        "Id": "saumon-moyen",
+        "name": "Saumon moyen",
+        "hex": "#F18787",
+        "codeDMC": "3712"
+    },
+    {
+        "Id": "saumon-fonce",
+        "name": "Saumon foncé",
+        "hex": "#E36D6D",
+        "codeDMC": "3328"
+    },
+    {
+        "Id": "saumon-tres-fonce",
+        "name": "Saumon très foncé",
+        "hex": "#BF2D2D",
+        "codeDMC": "347"
+    },
+    {
+        "Id": "peche",
+        "name": "Pêche",
+        "hex": "#FED7CC",
+        "codeDMC": "353"
+    },
+    {
+        "Id": "lumiere-de-corail",
+        "name": "Lumière de corail",
+        "hex": "#FD9C97",
+        "codeDMC": "352"
+    },
+    {
+        "Id": "corail",
+        "name": "Corail",
+        "hex": "#E96A67",
+        "codeDMC": "351"
+    },
+    {
+        "Id": "corail-moyen",
+        "name": "Corail Moyen",
+        "hex": "#E04848",
+        "codeDMC": "350"
+    },
+    {
+        "Id": "corail-fonce",
+        "name": "Corail foncé",
+        "hex": "#D21035",
+        "codeDMC": "349"
+    },
+    {
+        "Id": "rouge-corail-tres-fonce",
+       "name": "Rouge corail très foncé",
+       "hex": "#BB051F",
+       "codeDMC": "817"
+    },
+    {
+        "Id": "melon-leger",
+        "name": "Melon léger",
+        "hex": "#FFCBD5",
+        "codeDMC": "3708"
+    },
+    {
+        "Id": "melon-moyen",
+        "name": "Melon moyen",
+        "hex": "#FFADBC",
+        "codeDMC": "3706"
+    },
+    {
+        "Id": "melon-fonce",
+        "name": "Melon foncé",
+        "hex": "#FF7992",
+        "codeDMC": "3705"
+    },
+    {
+        "Id": "melon-tres-fonce",
+        "name": "Melon très foncé",
+        "hex": "#E74967",
+        "codeDMC": "3801"
+    },
+    {
+        "Id": "rouge-vif",
+        "name": "Rouge vif",
+        "hex": "#E31D42",
+        "codeDMC": "666"
+    },
+    {
+        "Id": "rouge",
+        "name": "Rouge",
+        "hex": "#C72B3B",
+        "codeDMC": "321"
+    },
+    {
+        "Id": "rouge-moyen",
+        "name": "Rouge moyen",
+        "hex": "#B71F33",
+        "codeDMC": "304"
+    },
+    {
+        "Id": "rouge-fonce",
+        "name": "Rouge foncé",
+        "hex": "#A7132B",
+        "codeDMC": "498"
+    },
+    {
+        "Id": "grenat",
+        "name": "Grenat",
+        "hex": "#970B23",
+        "codeDMC": "816"
+    },
+    {
+        "Id": "grenat-moyen",
+        "name": "Grenat moyen",
+        "hex": "#87071F",
+        "codeDMC": "815"
+    },
+    {
+        "Id": "grenat-fonce",
+        "name": "Grenat foncé",
+        "hex": "#7B001B",
+        "codeDMC": "814"
+    },
+    {
+        "Id": "carnation-tres-clair",
+        "name": "Carnation Très Clair",
+        "hex": "#FFB2BB",
+        "codeDMC": "894"
+    },
+    {
+        "Id": "lumiere-doeillet",
+        "name": "Lumière d'oeillet",
+        "hex": "#FC90A2",
+        "codeDMC": "893"
+    },
+    {
+        "Id": "oeillet-moyen",
+        "name": "Œillet moyen",
+        "hex": "#FF798C",
+        "codeDMC": "892"
+    },
+    {
+        "Id": "carnation-fonce",
+        "name": "Carnation foncé",
+        "hex": "#FF5773",
+        "codeDMC": "891"
+    },
+    {
+        "Id": "bebe-rose",
+        "name": "Bébé rose",
+        "hex": "#FFDFD9",
+        "codeDMC": "818"
+    },
+    {
+        "Id": "geranium-pale",
+        "name": "Géranium pâle",
+        "hex": "#FDB5B5",
+        "codeDMC": "957"
+    },
+    {
+        "Id": "geranium",
+        "name": "Géranium",
+        "hex": "#FF9191",
+        "codeDMC": "956"
+    },
+    {
+        "Id": "rose-fonce",
+        "name": "Rose foncé",
+        "hex": "#BA4A4A",
+        "codeDMC": "309"
+    },
+    {
+        "Id": "rose-poudre-ultra-tres-leger",
+        "name": "Rose Poudré Ultra Très Léger",
+        "hex": "#FFD7D7",
+        "codeDMC": "963"
+    },
+    {
+        "Id": "rose-poudre-moyen-tres-clair",
+        "name": "Rose poudré moyen très clair",
+        "hex": "#FFBDBD",
+        "codeDMC": "3716"
+    },
+    {
+        "Id": "rose-poudre-moyen",
+        "name": "Rose poudré moyen",
+        "hex": "#E68A8A",
+        "codeDMC": "962"
+    },
+    {
+        "Id": "rose-poudre-fonce",
+        "name": "Rose poudré foncé",
+        "hex": "#CF7373",
+        "codeDMC": "961"
+    },
+    {
+        "Id": "lumiere-de-framboise",
+        "name": "Lumière de framboise",
+        "hex": "#EA8699",
+        "codeDMC": "3833"
+    },
+    {
+        "Id": "framboise-moyenne",
+        "name": "Framboise moyenne",
+        "hex": "#DB556E",
+        "codeDMC": "3832"
+    },
+    {
+        "Id": "framboise-noire",
+        "name": "Framboise noire",
+        "hex": "#B32F48",
+        "codeDMC": "3831"
+    },
+    {
+        "Id": "framboise-tres-foncee",
+        "name": "Framboise très foncée",
+        "hex": "#913546",
+        "codeDMC": "777"
+    },
+    {
+        "Id": "lumiere-rose-bebe",
+        "name": "Lumière rose bébé",
+        "hex": "#FFEEEB",
+        "codeDMC": "819"
+    },
+    {
+        "Id": "lumiere-rose",
+        "name": "Lumière rose",
+        "hex": "#FBADB4",
+        "codeDMC": "3326"
+    },
+    {
+        "Id": "rose-moyen",
+        "name": "Rose moyen",
+        "hex": "#FCB0B9",
+        "codeDMC": "776"
+    },
+    {
+        "Id": "rose-moyenne",
+        "name": "Rose Moyenne",
+        "hex": "#F27688",
+        "codeDMC": "899"
+    },
+    {
+        "Id": "rose",
+        "name": "Rose",
+        "hex": "#EE546E",
+        "codeDMC": "335"
+    },
+    {
+        "Id": "rose-tres-fonce",
+        "name": "Rose très foncé",
+        "hex": "#B33B4B",
+        "codeDMC": "326"
+    },
+    {
+        "Id": "rose-poudre-tres-clair",
+        "name": "Rose poudré très clair",
+        "hex": "#F0CED4",
+        "codeDMC": "151"
+    },
+    {
+        "Id": "lumiere-rose-poudree",
+        "name": "Lumière rose poudrée",
+        "hex": "#E4A6AC",
+        "codeDMC": "3354"
+    },
+    {
+        "Id": "rose-poussiereuse",
+        "name": "Rose poussiéreuse",
+        "hex": "#E8879B",
+        "codeDMC": "3733"
+    },
+    {
+        "Id": "rose-poudre-tres-fonce",
+        "name": "Rose poudré très foncé",
+        "hex": "#DA6783",
+        "codeDMC": "3731"
+    },
+    {
+        "Id": "rose-poudre-ultra-fonce",
+        "name": "Rose poudré ultra foncé",
+        "hex": "#BC4365",
+        "codeDMC": "3350"
+    },
+    {
+        "Id": "rose-poudre-ultra-tres-fonce",
+        "name": "Rose poudré ultra très foncé",
+        "hex": "#AB0249",
+        "codeDMC": "150"
+    },
+    {
+        "Id": "mauve-clair",
+        "name": "Mauve clair",
+        "hex": "#FBBFC2",
+        "codeDMC": "3689"
+    },
+    {
+        "Id": "mauve-moyen",
+        "name": "Mauve moyen",
+        "hex": "#E7A9AC",
+        "codeDMC": "3688"
+    },
+    {
+        "Id": "mauve",
+        "name": "Mauve",
+        "hex": "#C96B70",
+        "codeDMC": "3687"
+    },
+    {
+        "Id": "mauve-fonce",
+        "name": "Mauve foncé",
+        "hex": "#AB3357",
+        "codeDMC": "3803"
+    },
+    {
+        "Id": "mauve-tres-fonce",
+        "name": "Mauve très foncé",
+        "hex": "#881531",
+        "codeDMC": "3685"
+    },
+    {
+        "Id": "canneberge-tres-legere",
+        "name": "Canneberge très légère",
+        "hex": "#FFC0CD",
+        "codeDMC": "605"
+    },
+    {
+        "Id": "canneberge-legere",
+        "name": "Canneberge légère",
+        "hex": "#FFB0BE",
+        "codeDMC": "604"
+    },
+    {
+        "Id": "canneberge",
+        "name": "Canneberge",
+        "hex": "#FFA4BE",
+        "codeDMC": "603"
+    },
+    {
+        "Id": "canneberge-moyenne",
+        "name": "Canneberge moyenne",
+        "hex": "#E24874",
+        "codeDMC": "602"
+    },
+    {
+        "Id": "canneberge-noir",
+        "name": "Canneberge Noir",
+        "hex": "#D1286A",
+        "codeDMC": "601"
+    },
+    {
+        "Id": "canneberge-tres-fonce",
+        "name": "Canneberge très foncé",
+        "hex": "#CD2F63",
+        "codeDMC": "600"
+    },
+    {
+        "Id": "cyclamen-rose-clair",
+        "name": "Cyclamen Rose Clair",
+        "hex": "#FF8CAE",
+        "codeDMC": "3806"
+    },
+    {
+        "Id": "cyclamen-rose",
+        "name": "Cyclamen rose",
+        "hex": "#F3478B",
+        "codeDMC": "3805"
+    },
+    {
+        "Id": "cyclamen-rose-fonce",
+        "name": "Cyclamen rose foncé",
+        "hex": "#E02876",
+        "codeDMC": "3804"
+    },
+    {
+        "Id": "prune-ultra-legere",
+        "name": "Prune Ultra Légère",
+        "hex": "#F4AED7",
+        "codeDMC": "3609"
+    },
+    {
+        "Id": "prune-tres-clair",
+        "name": "Prune Très Clair",
+        "hex": "#EA9CC4",
+        "codeDMC": "3608"
+    },
+    {
+        "Id": "prune-legere",
+        "name": "Prune légère",
+        "hex": "#C54989",
+        "codeDMC": "3607"
+    },
+    {
+        "Id": "prune",
+        "name": "Prune",
+        "hex": "#9C2462",
+        "codeDMC": "718"
+    },
+    {
+        "Id": "prune-moyenne",
+        "name": "Prune Moyenne",
+        "hex": "#9B1359",
+        "codeDMC": "917"
+    },
+    {
+        "Id": "prune-foncee",
+        "name": "Prune foncée",
+        "hex": "#820043",
+        "codeDMC": "915"
+    },
+    {
+        "Id": "coquillage-rose-ultra-tres-leger",
+        "name": "Coquillage Rose Ultra Très Léger",
+        "hex": "#FFDFD7",
+        "codeDMC": "225"
+    },
+    {
+        "Id": "coquillage-rose-tres-clair",
+        "name": "Coquillage Rose Très Clair",
+        "hex": "#EBB7AF",
+        "codeDMC": "224"
+    },
+    {
+        "Id": "coquillage-rose-moyen-clair",
+        "name": "Coquillage rose moyen clair",
+        "hex": "#E2A099",
+        "codeDMC": "152"
+    },
+    {
+        "Id": "coquillage-rose-clair",
+        "name": "Coquillage rose clair",
+        "hex": "#CC847C",
+        "codeDMC": "223"
+    },
+    {
+        "Id": "coquillage-rose-moyen",
+        "name": "Coquillage rose moyen",
+        "hex": "#BC6C64",
+        "codeDMC": "3722"
+    },
+    {
+        "Id": "coquillage-rose-fonce",
+        "name": "Coquillage rose foncé",
+        "hex": "#A14B51",
+        "codeDMC": "3721"
+    },
+    {
+        "Id": "coquillage-rose-tres-fonce",
+        "name": "Coquillage rose très foncé",
+        "hex": "#883E43",
+        "codeDMC": "221"
+    },
+    {
+        "Id": "mauve-antique-tres-clair",
+        "name": "Mauve antique très clair",
+        "hex": "#DFB3BB",
+        "codeDMC": "778"
+    },
+    {
+        "Id": "lampe-mauve-antique",
+        "name": "Lampe Mauve Antique",
+        "hex": "#DBA9B2",
+        "codeDMC": "3727"
+    },
+    {
+        "Id": "mauve-antique-moyen",
+        "name": "Mauve antique moyen",
+        "hex": "#B7737F",
+        "codeDMC": "316"
+    },
+    {
+        "Id": "mauve-antique-fonce",
+        "name": "Mauve antique foncé",
+        "hex": "#9B5B66",
+        "codeDMC": "3726"
+    },
+    {
+        "Id": "mauve-antique-moyen-fonce",
+        "name": "Mauve antique moyen foncé",
+        "hex": "#814952",
+        "codeDMC": "315"
+    },
+    {
+        "Id": "mauve-antique-tres-fonce",
+        "name": "Mauve antique très foncé",
+        "hex": "#714149",
+        "codeDMC": "3802"
+    },
+    {
+        "Id": "grenat-tres-fonce",
+        "name": "Grenat très foncé",
+        "hex": "#822637",
+        "codeDMC": "902"
+    },
+    {
+        "Id": "violet-antique-tres-clair",
+        "name": "Violet antique très clair",
+        "hex": "#D7CBD3",
+        "codeDMC": "3743"
+    },
+    {
+        "Id": "lumiere-violette-antique",
+        "name": "Lumière violette antique",
+        "hex": "#B79DA7",
+        "codeDMC": "3042"
+    },
+    {
+        "Id": "violet-antique-moyen",
+        "name": "Violet antique moyen",
+        "hex": "#956F7C",
+        "codeDMC": "3041"
+    },
+    {
+        "Id": "violet-antique-fonce",
+        "name": "Violet antique foncé",
+        "hex": "#785762",
+        "codeDMC": "3740"
+    },
+    {
+        "Id": "lumiere-de-raisin",
+        "name": "Lumière de raisin",
+        "hex": "#BA91AA",
+        "codeDMC": "3836"
+    },
+    {
+        "Id": "raisin-moyen",
+        "name": "Raisin moyen",
+        "hex": "#946083",
+        "codeDMC": "3835"
+    },
+    {
+        "Id": "raisin-noir",
+        "name": "Raisin Noir",
+        "hex": "#72375D",
+        "codeDMC": "3834"
+    },
+    {
+        "Id": "raisin-tres-fonce",
+        "name": "Raisin très foncé",
+        "hex": "#572433",
+        "codeDMC": "154"
+    },
+    {
+        "Id": "lumiere-de-lavande",
+        "name": "Lumière de lavande",
+        "hex": "#E3CBE3",
+        "codeDMC": "211"
+    },
+    {
+        "Id": "lavande-moyenne",
+        "name": "Lavande moyenne",
+        "hex": "#D29FC3",
+        "codeDMC": "210"
+    },
+    {
+        "Id": "lavande-foncee",
+        "name": "Lavande foncée",
+        "hex": "#A37BA7",
+        "codeDMC": "209"
+    },
+    {
+        "Id": "lavande-tres-foncee",
+        "name": "Lavande très foncée",
+        "hex": "#835B8B",
+        "codeDMC": "208"
+    },
+    {
+        "Id": "lavande-ultra-fonce",
+        "name": "Lavande Ultra Foncé",
+        "hex": "#6C3A6E",
+        "codeDMC": "3837"
+    },
+    {
+        "Id": "violet-fonce",
+        "name": "Violet foncé",
+        "hex": "#633666",
+        "codeDMC": "327"
+    },
+    {
+        "Id": "violet-tres-clair",
+        "name": "Violet Très Clair",
+        "hex": "#E6CCD9",
+        "codeDMC": "153"
+    },
+    {
+        "Id": "lumiere-violette",
+        "name": "Lumière violette",
+        "hex": "#DBB3CB",
+        "codeDMC": "554"
+    },
+    {
+        "Id": "violet",
+        "name": "Violet",
+        "hex": "#A3638B",
+        "codeDMC": "553"
+    },
+    {
+        "Id": "violet-moyen",
+        "name": "Violet moyen",
+        "hex": "#803A6B",
+        "codeDMC": "552"
+    },
+    {
+        "Id": "violet-tres-fonce",
+        "name": "Violet Très Foncé",
+        "hex": "#5C184E",
+        "codeDMC": "550"
+    },
+    {
+        "Id": "bleu-violet-tres-clair",
+        "name": "Bleu Violet Très Clair",
+        "hex": "#D3D7ED",
+        "codeDMC": "3747"
+    },
+    {
+        "Id": "lumiere-bleu-violet",
+        "name": "Lumière bleu-violet",
+        "hex": "#B7BFDD",
+        "codeDMC": "341"
+    },
+    {
+        "Id": "bleu-violet-moyen-clair",
+        "name": "Bleu Violet Moyen Clair",
+        "hex": "#A3AED1",
+        "codeDMC": "156"
+    },
+    {
+        "Id": "bleu-violet-moyen",
+        "name": "Bleu Violet Moyen",
+        "hex": "#ADA7C7",
+        "codeDMC": "340"
+    },
+    {
+        "Id": "bleu-violet-moyen-fonce",
+        "name": "Bleu Violet Moyen Foncé",
+        "hex": "#9891B6",
+        "codeDMC": "155"
+    },
+    {
+        "Id": "bleu-violet-fonce",
+        "name": "Bleu Violet Foncé",
+        "hex": "#776B98",
+        "codeDMC": "3746"
+    },
+    {
+        "Id": "bleu-violet-tres-fonce",
+        "name": "Bleu Violet Très Foncé",
+        "hex": "#5C5478",
+        "codeDMC": "333"
+    },
+    {
+        "Id": "bleuet-tres-clair",
+        "name": "Bleuet Bleuet Très Clair",
+        "hex": "#BBC3D9",
+        "codeDMC": "157"
+    },
+    {
+        "Id": "bleuet",
+        "name": "Bleuet Bleuet",
+        "hex": "#8F9CC1",
+        "codeDMC": "794"
+    },
+    {
+        "Id": "bleuet-moyen",
+        "name": "Bleuet Bleuet Moyen",
+        "hex": "#707DA2",
+        "codeDMC": "793"
+    },
+    {
+        "Id": "bleuet-bleu",
+        "name": "Bleuet Bleuet",
+        "hex": "#60678C",
+        "codeDMC": "3807"
+    },
+    {
+        "Id": "bleuet-bleu-fonce",
+        "name": "Bleuet Bleu Foncé",
+        "hex": "#555B7B",
+        "codeDMC": "792"
+    },
+    {
+        "Id": "bleuet-tres-fonce",
+        "name": "Bleuet Bleuet Très Foncé",
+        "hex": "#4C526E",
+        "codeDMC": "158"
+    },
+    {
+        "Id": "bleuet-tres-fonce-2",
+        "name": "Bleuet Bleuet Très Foncé",
+        "hex": "#464563",
+        "codeDMC": "791"
+    },
+    {
+        "Id": "lumiere-bleue-lavande",
+        "name": "Lumière bleue lavande",
+        "hex": "#B0C0DA",
+        "codeDMC": "3840"
+    },
+    {
+        "Id": "bleu-lavande-moyen",
+        "name": "Bleu lavande moyen",
+        "hex": "#7B8EAB",
+        "codeDMC": "3839"
+    },
+    {
+        "Id": "bleu-lavande-fonce",
+        "name": "Bleu lavande foncé",
+        "hex": "#5C7294",
+        "codeDMC": "3838"
+    },
+    {
+        "Id": "bleu-delft-pale",
+        "name": "Bleu de Delft pâle",
+        "hex": "#C0CCDE",
+        "codeDMC": "800"
+    },
+    {
+        "Id": "bleu-delft",
+        "name": "Bleu de Delft",
+        "hex": "#94A8C6",
+        "codeDMC": "809"
+    },
+    {
+        "Id": "bleu-delft-moyen",
+        "name": "Bleu de Delft moyen",
+        "hex": "#748EB6",
+        "codeDMC": "799"
+    },
+    {
+        "Id": "bleu-delft-fonce",
+        "name": "Bleu de Delft foncé",
+        "hex": "#466A8E",
+        "codeDMC": "798"
+    },
+    {
+        "Id": "bleu-royal",
+        "name": "Bleu royal",
+        "hex": "#13477D",
+        "codeDMC": "797"
+    },
+    {
+        "Id": "bleu-royal-fonce",
+        "name": "Bleu royal foncé",
+        "hex": "#11416D",
+        "codeDMC": "796"
+    },
+    {
+        "Id": "bleu-royal-tres-fonce",
+        "name": "Bleu royal très foncé",
+        "hex": "#0E365C",
+        "codeDMC": "820"
+    },
+    {
+        "Id": "bleu-ultra-tres-leger",
+        "name": "Bleu Ultra Très Léger",
+        "hex": "#DBECF5",
+        "codeDMC": "162"
+    },
+    {
+        "Id": "bleu-tres-clair",
+        "name": "Bleu très clair",
+        "hex": "#BDDDÉ",
+        "codeDMC": "827"
+    },
+    {
+        "Id": "lumiere-bleue",
+        "name": "Lumière bleue",
+        "hex": "#A1C2D7",
+        "codeDMC": "813"
+    },
+    {
+        "Id": "bleu-moyen",
+        "name": "Bleu moyen",
+        "hex": "#6B9EBF",
+        "codeDMC": "826"
+    },
+    {
+        "Id": "bleu-fonce",
+        "name": "Bleu foncé",
+        "hex": "#4781A5",
+        "codeDMC": "825"
+    },
+    {
+        "Id": "bleu-tres-fonce",
+        "name": "Bleu très foncé",
+        "hex": "#396987",
+        "codeDMC": "824"
+    },
+    {
+        "Id": "bleu-electrique-moyen",
+        "name": "Bleu électrique moyen",
+        "hex": "#30C2EC",
+        "codeDMC": "996"
+    },
+    {
+        "Id": "bleu-electrique",
+        "name": "Bleu électrique",
+        "hex": "#14AAD0",
+        "codeDMC": "3843"
+    },
+    {
+        "Id": "bleu-electrique-fonce",
+        "name": "Bleu électrique foncé",
+        "hex": "#2696B6",
+        "codeDMC": "995"
+    },
+    {
+        "Id": "lumiere-turquoise-vive",
+        "name": "Lumière turquoise vive",
+        "hex": "#06E3E6",
+        "codeDMC": "3846"
+    },
+    {
+        "Id": "turquoise-brillant-moyen",
+        "name": "Turquoise brillant moyen",
+        "hex": "#04C4CA",
+        "codeDMC": "3845"
+    },
+    {
+        "Id": "turquoise-clair-fonce",
+        "name": "Turquoise Clair Foncé",
+        "hex": "#12AEBA",
+        "codeDMC": "3844"
+    },
+    {
+        "Id": "lumiere-bleu-gris",
+        "name": "Lumière Bleu Gris",
+        "hex": "#C7CAD7",
+        "codeDMC": "159"
+    },
+    {
+        "Id": "bleu-gris-moyen",
+        "name": "Bleu Gris Moyen",
+        "hex": "#999FB7",
+        "codeDMC": "160"
+    },
+    {
+        "Id": "bleu-gris",
+        "name": "Bleu Gris",
+        "hex": "#7880A4",
+        "codeDMC": "161"
+    },
+    {
+        "Id": "bleu-bebe-ultra-tres-leger",
+        "name": "Bleu Bébé Ultra Très Léger",
+        "hex": "#EEFCFC",
+        "codeDMC": "3756"
+    },
+    {
+        "Id": "bleu-bebe-tres-clair",
+        "name": "Bleu bébé très clair",
+        "hex": "#D9EBF1",
+        "codeDMC": "775"
+    },
+    {
+        "Id": "bleu-pale-bebe",
+        "name": "Bleu pâle bébé",
+        "hex": "#CDDFED",
+        "codeDMC": "3841"
+    },
+    {
+        "Id": "lumiere-bleue-pour-bebe",
+        "name": "Lumière bleue pour bébé",
+        "hex": "#B8D2E6",
+        "codeDMC": "3325"
+    },
+    {
+        "Id": "bleu-bebe",
+        "name": "Bleu bébé",
+        "hex": "#92B4CE",
+        "codeDMC": "3755"
+    },
+    {
+        "Id": "bleu-bebe-moyen",
+        "name": "Bleu bébé moyen",
+        "hex": "#739FC1",
+        "codeDMC": "334"
+    },
+    {
+        "Id": "bleu-bebe-fonce",
+        "name": "Bleu bébé foncé",
+        "hex": "#5A8FB8",
+        "codeDMC": "322"
+    },
+    {
+        "Id": "bleu-bebe-tres-fonce",
+        "name": "Bleu bébé très foncé",
+        "hex": "#35668B",
+        "codeDMC": "312"
+    },
+    {
+        "Id": "bleu-bebe-ultra-tres-fonce",
+        "name": "Bleu bébé ultra très foncé",
+        "hex": "#2C597C",
+        "codeDMC": "803"
+    },
+    {
+        "Id": "bleu-marine",
+        "name": "Bleu marine",
+        "hex": "#253B73",
+        "codeDMC": "336"
+    },
+    {
+        "Id": "bleu-marine-fonce",
+        "name": "Bleu marine foncé",
+        "hex": "#213063",
+        "codeDMC": "823"
+    },
+    {
+        "Id": "bleu-marine-tres-fonce",
+        "name": "Bleu marine très foncé",
+        "hex": "#1B2853",
+        "codeDMC": "939"
+    },
+    {
+        "Id": "bleu-antique-ultra-tres-clair",
+        "name": "Bleu antique ultra très clair",
+        "hex": "#DBE2E9",
+        "codeDMC": "3753"
+    },
+    {
+        "Id": "bleu-antique-tres-clair",
+        "name": "Bleu antique très clair",
+        "hex": "#C7D1DB",
+        "codeDMC": "3752"
+    },
+    {
+        "Id": "lumiere-bleue-antique",
+        "name": "Lumière bleue antique",
+        "hex": "#A2B5C6",
+        "codeDMC": "932"
+    },
+    {
+        "Id": "bleu-antique-moyen",
+        "name": "Bleu antique moyen",
+        "hex": "#6A859E",
+        "codeDMC": "931"
+    },
+    {
+        "Id": "bleu-antique-fonce",
+        "name": "Bleu antique foncé",
+        "hex": "#455C71",
+        "codeDMC": "930"
+    },
+    {
+        "Id": "bleu-antique-tres-fonce",
+        "name": "Bleu antique très foncé",
+        "hex": "#384C5E",
+        "codeDMC": "3750"
+    },
+    {
+        "Id": "bleu-ciel-tres-clair",
+        "name": "Bleu ciel très clair",
+        "hex": "#C5E8ED",
+        "codeDMC": "828"
+    },
+    {
+        "Id": "lumiere-bleu-ciel",
+        "name": "Lumière bleu ciel",
+        "hex": "#ACD8E2",
+        "codeDMC": "3761"
+    },
+    {
+        "Id": "bleu-ciel",
+        "name": "Bleu ciel",
+        "hex": "#7EB1C8",
+        "codeDMC": "519"
+    },
+    {
+        "Id": "lampe-wedgewood",
+        "name": "Lampe Wedgewood",
+        "hex": "#4F93A7",
+        "codeDMC": "518"
+    },
+    {
+        "Id": "wedgewood-moyen",
+        "name": "Wedgewood Moyen",
+        "hex": "#3E85A2",
+        "codeDMC": "3760"
+    },
+    {
+        "Id": "wedgewood-sombre",
+        "name": "Wedgewood sombre",
+        "hex": "#3B768F",
+        "codeDMC": "517"
+    },
+    {
+        "Id": "wedgewood-tres-sombre",
+        "name": "Wedgewood très sombre",
+        "hex": "#32667C",
+        "codeDMC": "3842"
+    },
+    {
+        "Id": "wedgewood-ultra-tres-fonce",
+        "name": "Wedgewood Ultra Très Foncé",
+        "hex": "#1C5066",
+        "codeDMC": "311"
+    },
+    {
+        "Id": "bleu-paon-tres-clair",
+        "name": "Bleu Paon Très Clair",
+        "hex": "#E5FCFD",
+        "codeDMC": "747"
+    },
+    {
+        "Id": "lumiere-bleue-paon",
+        "name": "Lumière bleue paon",
+        "hex": "#99CFD9",
+        "codeDMC": "3766"
+    },
+    {
+        "Id": "bleu-paon",
+        "name": "Bleu Paon",
+        "hex": "#64ABBA",
+        "codeDMC": "807"
+    },
+    {
+        "Id": "bleu-paon-fonce",
+        "name": "Bleu paon foncé",
+        "hex": "#3D95A5",
+        "codeDMC": "806"
+    },
+    {
+        "Id": "bleu-paon-tres-fonce",
+        "name": "Bleu Paon Très Foncé",
+        "hex": "#347F8C",
+        "codeDMC": "3765"
+    },
+    {
+        "Id": "turquoise-tres-clair",
+        "name": "Turquoise très clair",
+        "hex": "#BCE3E6",
+        "codeDMC": "3811"
+    },
+    {
+        "Id": "lumiere-turquoise",
+        "name": "Lumière turquoise",
+        "hex": "#90C3CC",
+        "codeDMC": "598"
+    },
+    {
+        "Id": "turquoise",
+        "name": "Turquoise",
+        "hex": "#5BA3B3",
+        "codeDMC": "597"
+    },
+    {
+        "Id": "turquoise-fonce",
+        "name": "Turquoise foncé",
+        "hex": "#488E9A",
+        "codeDMC": "3810"
+    },
+    {
+        "Id": "turquoise-vy-fonce",
+        "name": "Turquoise Vy Foncé",
+        "hex": "#3F7C85",
+        "codeDMC": "3809"
+    },
+    {
+        "Id": "turquoise-ultra-tres-fonce",
+        "name": "Turquoise Ultra Très Foncé",
+        "hex": "#366970",
+        "codeDMC": "3808"
+    },
+    {
+        "Id": "gris-vert-tres-clair",
+        "name": "Gris Vert Très Clair",
+        "hex": "#DDE3E3",
+        "codeDMC": "928"
+    },
+    {
+        "Id": "lumiere-verte-grise",
+        "name": "Lumière verte grise",
+        "hex": "#BDCBCB",
+        "codeDMC": "927"
+    },
+    {
+        "Id": "gris-vert-moyen",
+        "name": "Gris Vert Moyen",
+        "hex": "#98AEAE",
+        "codeDMC": "926"
+    },
+    {
+        "Id": "gris-vert-fonce",
+        "name": "Gris Vert Foncé",
+        "hex": "#657F7F",
+        "codeDMC": "3768"
+    },
+    {
+        "Id": "gris-vert-vy-fonce",
+        "name": "Gris Vert Vy Foncé",
+        "hex": "#566A6A",
+        "codeDMC": "924"
+    },
+    {
+        "Id": "lumiere-verte-sarcelle",
+        "name": "Lumière verte sarcelle",
+        "hex": "#52B3AE",
+        "codeDMC": "3849"
+    },
+    {
+        "Id": "vert-sarcelle-moyen",
+        "name": "Vert sarcelle moyen",
+        "hex": "#419392",
+        "codeDMC": "3848"
+    },
+    {
+        "Id": "vert-sarcelle-fonce",
+        "name": "Vert sarcelle foncé",
+        "hex": "#347D75",
+        "codeDMC": "3847"
+    },
+    {
+        "Id": "lumiere-verte-de-mer",
+        "name": "Lumière verte de mer",
+        "hex": "#A9E2D8",
+        "codeDMC": "964"
+    },
+    {
+        "Id": "vert-de-mer-moyen",
+        "name": "Vert de mer moyen",
+        "hex": "#59C7B4",
+        "codeDMC": "959"
+    },
+    {
+        "Id": "vert-de-mer-fonce",
+        "name": "Vert de mer foncé",
+        "hex": "#3EB6A1",
+        "codeDMC": "958"
+    },
+    {
+        "Id": "vert-de-mer-tres-fonce",
+        "name": "Vert de mer très foncé",
+        "hex": "#2F8C84",
+        "codeDMC": "3812"
+    },
+    {
+        "Id": "lumiere-verte-brillante",
+        "name": "Lumière verte brillante",
+        "hex": "#49B3A1",
+        "codeDMC": "3851"
+    },
+    {
+        "Id": "vert-brillant-moyen",
+        "name": "Vert brillant moyen",
+        "hex": "#3D9384",
+        "codeDMC": "943"
+    },
+    {
+        "Id": "vert-clair-fonce",
+        "name": "Vert Clair Foncé",
+        "hex": "#378477",
+        "codeDMC": "3850"
+    },
+    {
+        "Id": "aigue-marine-tres-legere",
+        "name": "Aigue-marine très légère",
+        "hex": "#90C0B4",
+        "codeDMC": "993"
+    },
+    {
+        "Id": "lumiere-aigue-marine",
+        "name": "Lumière aigue-marine",
+        "hex": "#6FAE9F",
+        "codeDMC": "992"
+    },
+    {
+        "Id": "bleu-vert",
+        "name": "Bleu vert",
+        "hex": "#508B7D",
+        "codeDMC": "3814"
+    },
+    {
+        "Id": "aigue-marine-foncee",
+        "name": "Aigue-marine foncée",
+        "hex": "#477B6E",
+        "codeDMC": "991"
+    },
+    {
+        "Id": "jade-ultra-tres-leger",
+        "name": "Jade Ultra Très Léger",
+        "hex": "#B9D7C0",
+        "codeDMC": "966"
+    },
+    {
+        "Id": "jade-tres-leger",
+        "name": "Jade très léger",
+        "hex": "#A7CDAF",
+        "codeDMC": "564"
+    },
+    {
+        "Id": "lumiere-de-jade",
+        "name": "Lumière de jade",
+        "hex": "#8FC098",
+        "codeDMC": "563"
+    },
+    {
+        "Id": "jade-moyen",
+        "name": "Jade Moyen",
+        "hex": "#53976A",
+        "codeDMC": "562"
+    },
+    {
+        "Id": "vert-jade",
+        "name": "Vert Jade",
+        "hex": "#338362",
+        "codeDMC": "505"
+    },
+    {
+        "Id": "lumiere-vert-celadon",
+        "name": "Lumière Vert Céladon",
+        "hex": "#99C3AA",
+        "codeDMC": "3817"
+    },
+    {
+        "Id": "vert-celadon",
+        "name": "Vert Céladon",
+        "hex": "#65A57D",
+        "codeDMC": "3816"
+    },
+    {
+        "Id": "vert-celadon-moyen",
+        "name": "Vert Céladon Moyen",
+        "hex": "#4D8361",
+        "codeDMC": "163"
+    },
+    {
+        "Id": "vert-celadon-fonce",
+        "name": "Vert Céladon Foncé",
+        "hex": "#477759",
+        "codeDMC": "3815"
+    },
+    {
+        "Id": "vert-celadon-vd",
+        "name": "Vert Céladon VD",
+        "hex": "#2C6A45",
+        "codeDMC": "561"
+    },
+    {
+        "Id": "bleu-vert-tres-clair",
+        "name": "Bleu Vert Très Clair",
+        "hex": "#C4DECC",
+        "codeDMC": "504"
+    },
+    {
+        "Id": "lumiere-bleue-verte",
+        "name": "Lumière bleue verte",
+        "hex": "#B2D4BD",
+        "codeDMC": "3813"
+    },
+    {
+        "Id": "bleu-vert-moyen",
+        "name": "Bleu Vert Moyen",
+        "hex": "#7BAC94",
+        "codeDMC": "503"
+    },
+    {
+        "Id": "bleu-vert",
+        "name": "Bleu Vert",
+        "hex": "#5B9071",
+        "codeDMC": "502"
+    },
+    {
+        "Id": "bleu-vert-fonce",
+        "name": "Bleu Vert Foncé",
+        "hex": "#396F52",
+        "codeDMC": "501"
+    },
+    {
+        "Id": "bleu-vert-tres-fonce",
+        "name": "Bleu Vert Très Foncé",
+        "hex": "#044D33",
+        "codeDMC": "500"
+    },
+    {
+        "Id": "feu-vert-du-nil",
+        "name": "Feu vert du Nil",
+        "hex": "#A2D6AD",
+        "codeDMC": "955"
+    },
+    {
+        "Id": "vert-du-nil",
+        "name": "Vert du Nil",
+        "hex": "#88BA91",
+        "codeDMC": "954"
+    },
+    {
+        "Id": "vert-nil-moyen",
+        "name": "Vert Nil moyen",
+        "hex": "#6DAB77",
+        "codeDMC": "913"
+    },
+    {
+        "Id": "lumiere-verte-emeraude",
+        "name": "Lumière verte émeraude",
+        "hex": "#1B9D6B",
+        "codeDMC": "912"
+    },
+    {
+        "Id": "vert-emeraude-moyen",
+        "name": "Vert émeraude moyen",
+        "hex": "#189065",
+        "codeDMC": "911"
+    },
+    {
+        "Id": "vert-emeraude-fonce",
+        "name": "Vert émeraude foncé",
+        "hex": "#187E56",
+        "codeDMC": "910"
+    },
+    {
+        "Id": "vert-emeraude-tres-fonce",
+        "name": "Vert émeraude très foncé",
+        "hex": "#156F49",
+        "codeDMC": "909"
+    },
+    {
+        "Id": "vert-emeraude-ultra-tres-fonce",
+        "name": "Vert émeraude ultra très foncé",
+        "hex": "#115A3B",
+        "codeDMC": "3818"
+    },
+    {
+        "Id": "vert-pistache-tres-clair",
+        "name": "Vert pistache très clair",
+        "hex": "#D7EDCC",
+        "codeDMC": "369"
+    },
+    {
+        "Id": "feu-vert-pistache",
+        "name": "Feu vert pistache",
+        "hex": "#A6C298",
+        "codeDMC": "368"
+    },
+    {
+        "Id": "vert-pistache-moyen",
+        "name": "Vert pistache moyen",
+        "hex": "#69885A",
+        "codeDMC": "320"
+    },
+    {
+        "Id": "vert-pistache-fonce",
+        "name": "Vert pistache foncé",
+        "hex": "#617A52",
+        "codeDMC": "367"
+    },
+    {
+        "Id": "vert-pistache-tres-fonce",
+        "name": "Vert pistache très foncé",
+        "hex": "#205F2E",
+        "codeDMC": "319"
+    },
+    {
+        "Id": "vert-pistache-ultra-tres-fonce",
+        "name": "Vert Pistache Ultra Très Foncé",
+        "hex": "#184923",
+        "codeDMC": "890"
+    },
+    {
+        "Id": "feu-vert-foret",
+        "name": "Feu vert forêt",
+        "hex": "#C8D8B8",
+        "codeDMC": "164"
+    },
+    {
+        "Id": "vert-foret",
+        "name": "Vert forêt",
+        "hex": "#8DA675",
+        "codeDMC": "989"
+    },
+    {
+        "Id": "vert-foret-moyen",
+        "name": "Vert forêt moyen",
+        "hex": "#738B5B",
+        "codeDMC": "988"
+    },
+    {
+        "Id": "vert-foret-fonce",
+        "name": "Vert forêt foncé",
+        "hex": "#587141",
+        "codeDMC": "987"
+    },
+    {
+        "Id": "vert-foret-tres-fonce",
+        "name": "Vert forêt très foncé",
+        "hex": "#405230",
+        "codeDMC": "986"
+    },
+    {
+        "Id": "jaune-vert-tres-clair",
+        "name": "Jaune Vert Très Clair",
+        "hex": "#E4ECD4",
+        "codeDMC": "772"
+    },
+    {
+        "Id": "feu-vert-jaune",
+        "name": "Feu vert jaune",
+        "hex": "#CCD9B1",
+        "codeDMC": "3348"
+    },
+    {
+        "Id": "jaune-vert-moyen",
+        "name": "Jaune Vert Moyen",
+        "hex": "#71935C",
+        "codeDMC": "3347"
+    },
+    {
+        "Id": "vert-chasseur",
+        "name": "Vert chasseur",
+        "hex": "#406A3A",
+        "codeDMC": "3346"
+    },
+    {
+        "Id": "vert-chasseur-fonce",
+        "name": "Vert chasseur foncé",
+        "hex": "#1B5915",
+        "codeDMC": "3345"
+    },
+    {
+        "Id": "vert-chasseur-tres-fonce",
+        "name": "Vert chasseur très foncé",
+        "hex": "#1B5300",
+        "codeDMC": "895"
+    },
+    {
+        "Id": "chartreuse-lumineuse",
+        "name": "Chartreuse Lumineuse",
+        "hex": "#9ECF34",
+        "codeDMC": "704"
+    },
+    {
+        "Id": "chartreuse",
+        "name": "Chartreuse",
+        "hex": "#7BB547",
+        "codeDMC": "703"
+    },
+    {
+        "Id": "kelly-green",
+        "name": "Kelly Green",
+        "hex": "#47A72F",
+        "codeDMC": "702"
+    },
+    {
+        "Id": "feu-vert",
+        "name": "Feu vert",
+        "hex": "#3F8F29",
+        "codeDMC": "701"
+    },
+    {
+        "Id": "vert-brillant",
+        "name": "Vert brillant",
+        "hex": "#07731B",
+        "codeDMC": "700"
+    },
+    {
+        "Id": "vert",
+        "name": "Vert",
+        "hex": "#056517",
+        "codeDMC": "699"
+    },
+    {
+        "Id": "lumiere-verte-du-perroquet",
+        "name": "Lumière verte du perroquet",
+        "hex": "#C7E666",
+        "codeDMC": "907"
+    },
+    {
+        "Id": "perroquet-vert-moyen",
+        "name": "Perroquet Vert Moyen",
+        "hex": "#7FB335",
+        "codeDMC": "906"
+    },
+    {
+        "Id": "perroquet-vert-fonce",
+        "name": "Perroquet Vert Foncé",
+        "hex": "#628A28",
+        "codeDMC": "905"
+    },
+    {
+        "Id": "perroquet-vert-tres-fonce",
+        "name": "Perroquet Vert Très Foncé",
+        "hex": "#557822",
+        "codeDMC": "904"
+    },
+    {
+        "Id": "vert-avocat-ultra-leger",
+        "name": "Vert Avocat Ultra Léger",
+        "hex": "#D8E498",
+        "codeDMC": "472"
+    },
+    {
+        "Id": "avocat-vert-tres-clair",
+        "name": "Avocat Vert Très Clair",
+        "hex": "#AEBF79",
+        "codeDMC": "471"
+    },
+    {
+        "Id": "avocat-vert-clair",
+        "name": "Avocat Vert Clair",
+        "hex": "#94AB4F",
+        "codeDMC": "470"
+    },
+    {
+        "Id": "vert-avocat",
+        "name": "Vert Avocat",
+        "hex": "#72843C",
+        "codeDMC": "469"
+    },
+    {
+        "Id": "vert-avocat-moyen",
+        "name": "Vert Avocat Moyen",
+        "hex": "#627133",
+        "codeDMC": "937"
+    },
+    {
+        "Id": "vert-avocat-tres-fonce",
+        "name": "Vert Avocat Très Foncé",
+        "hex": "#4C5826",
+        "codeDMC": "936"
+    },
+    {
+        "Id": "avocat-vert-fonce",
+        "name": "Avocat Vert Foncé",
+        "hex": "#424D21",
+        "codeDMC": "935"
+    },
+    {
+        "Id": "avocat-vert-noir",
+        "name": "Avocat Vert Noir",
+        "hex": "#313919",
+        "codeDMC": "934"
+    },
+    {
+        "Id": "feu-vert-fougere",
+        "name": "Feu vert fougère",
+        "hex": "#ABB197",
+        "codeDMC": "523"
+    },
+    {
+        "Id": "vert-gris",
+        "name": "Vert Gris",
+        "hex": "#9CA482",
+        "codeDMC": "3053"
+    },
+    {
+        "Id": "vert-gris-moyen",
+        "name": "Vert Gris Moyen",
+        "hex": "#889268",
+        "codeDMC": "3052"
+    },
+    {
+        "Id": "vert-gris-fonce",
+        "name": "Vert Gris Foncé",
+        "hex": "#5F6648",
+        "codeDMC": "3051"
+    },
+    {
+        "Id": "vert-fougere-tres-clair",
+        "name": "Vert fougère très clair",
+        "hex": "#C4CDAC",
+        "codeDMC": "524"
+    },
+    {
+        "Id": "vert-fougere",
+        "name": "Vert fougère",
+        "hex": "#969E7E",
+        "codeDMC": "522"
+    },
+    {
+        "Id": "vert-fougere-fonce",
+        "name": "Vert fougère foncé",
+        "hex": "#666D4F",
+        "codeDMC": "520"
+    },
+    {
+        "Id": "vert-pin",
+        "name": "Vert pin",
+        "hex": "#83975F",
+        "codeDMC": "3364"
+    },
+    {
+        "Id": "vert-pin-moyen",
+        "name": "Vert pin moyen",
+        "hex": "#728256",
+        "codeDMC": "3363"
+    },
+    {
+        "Id": "vert-pin-fonce",
+        "name": "Vert pin foncé",
+        "hex": "#5E6B47",
+        "codeDMC": "3362"
+    },
+    {
+        "Id": "vert-mousse-tres-clair",
+        "name": "Vert mousse très clair",
+        "hex": "#EFF4A4",
+        "codeDMC": "165"
+    },
+    {
+        "Id": "feu-vert-mousse",
+        "name": "Feu vert mousse",
+        "hex": "#E0E868",
+        "codeDMC": "3819"
+    },
+    {
+        "Id": "vert-mousse-moyen-clair",
+        "name": "Vert mousse moyen clair",
+        "hex": "#C0C840",
+        "codeDMC": "166"
+    },
+    {
+        "Id": "vert-mousse",
+        "name": "Vert mousse",
+        "hex": "#A7AE38",
+        "codeDMC": "581"
+    },
+    {
+        "Id": "vert-mousse-fonce",
+        "name": "Vert mousse foncé",
+        "hex": "#888D33",
+        "codeDMC": "580"
+    },
+    {
+        "Id": "feu-vert-olive",
+        "name": "Feu vert olive",
+        "hex": "#C7C077",
+        "codeDMC": "734"
+    },
+    {
+        "Id": "vert-olive-moyen",
+        "name": "Vert olive moyen",
+        "hex": "#BCB34C",
+        "codeDMC": "733"
+    },
+    {
+        "Id": "vert-olive",
+        "name": "Vert olive",
+        "hex": "#948C36",
+        "codeDMC": "732"
+    },
+    {
+        "Id": "vert-olive-fonce",
+        "name": "Vert olive foncé",
+        "hex": "#938B37",
+        "codeDMC": "731"
+    },
+    {
+        "Id": "vert-olive-tres-fonce",
+        "name": "Vert olive très foncé",
+        "hex": "#827B30",
+        "codeDMC": "730"
+    },
+    {
+        "Id": "vert-kaki-clair",
+        "name": "Vert kaki clair",
+        "hex": "#B9B982",
+        "codeDMC": "3013"
+    },
+    {
+        "Id": "vert-kaki-moyen",
+        "name": "Vert Kaki Moyen",
+        "hex": "#A6A75D",
+        "codeDMC": "3012"
+    },
+    {
+        "Id": "vert-kaki-fonce",
+        "name": "Vert kaki foncé",
+        "hex": "#898A58",
+        "codeDMC": "3011"
+    },
+    {
+        "Id": "moutarde-leger",
+        "name": "Moutarde légère",
+        "hex": "#CCB784",
+        "codeDMC": "372"
+    },
+    {
+        "Id": "moutarde",
+        "name": "Moutarde",
+        "hex": "#BFA671",
+        "codeDMC": "371"
+    },
+    {
+        "Id": "moutarde-moyenne",
+        "name": "Moutarde moyenne",
+        "hex": "#B89D64",
+        "codeDMC": "370"
+    },
+    {
+        "Id": "olive-doree-tres-claire",
+        "name": "Olive dorée très claire",
+        "hex": "#DBBE7F",
+        "codeDMC": "834"
+    },
+    {
+        "Id": "olive-doree-claire",
+        "name": "Olive dorée claire",
+        "hex": "#C8AB6C",
+        "codeDMC": "833"
+    },
+    {
+        "Id": "olive-doree",
+        "name": "Olive dorée",
+        "hex": "#BD9B51",
+        "codeDMC": "832"
+    },
+    {
+        "Id": "olives-dorees-moyennes",
+        "name": "Olives dorées moyennes",
+        "hex": "#AA8F56",
+        "codeDMC": "831"
+    },
+    {
+        "Id": "olive-doree-fonce",
+        "name": "Olive dorée foncée",
+        "hex": "#8D784B",
+        "codeDMC": "830"
+    },
+    {
+        "Id": "olive-doree-tres-fonce",
+        "name": "Olive dorée très foncée",
+        "hex": "#7E6B42",
+        "codeDMC": "829"
+    },
+    {
+        "Id": "brun-terne-tres-clair",
+        "name": "Brun terne très clair",
+        "hex": "#DCC4AA",
+        "codeDMC": "613"
+    },
+    {
+        "Id": "brun-terne-clair",
+        "name": "Brun terne clair",
+        "hex": "#BC9A78",
+        "codeDMC": "612"
+    },
+    {
+        "Id": "brun-terne",
+        "name": "Brun terne",
+        "hex": "#967656",
+        "codeDMC": "611"
+    },
+    {
+        "Id": "brun-terne-fonce",
+        "name": "Brun terne foncé",
+        "hex": "#796047",
+        "codeDMC": "610"
+    },
+    {
+        "Id": "jaune-beige-clair",
+        "name": "Jaune Beige Clair",
+        "hex": "#E7D6C1",
+        "codeDMC": "3047"
+    },
+    {
+        "Id": "jaune-beige-moyen",
+        "name": "Jaune Beige Moyen",
+        "hex": "#D8BC9A",
+        "codeDMC": "3046"
+    },
+    {
+        "Id": "jaune-beige-fonce",
+        "name": "Jaune Beige Foncé",
+        "hex": "#BC966A",
+        "codeDMC": "3045"
+    },
+    {
+        "Id": "jaune-beige-tres-fonce",
+        "name": "Jaune Beige Très Foncé",
+        "hex": "#A77C49",
+        "codeDMC": "167"
+    },
+    {
+        "Id": "blanc-casse",
+        "name": "Blanc cassé",
+        "hex": "#FCFCEE",
+        "codeDMC": "746"
+    },
+    {
+        "Id": "vieil-or-tres-clair",
+        "name": "Vieil Or Très Clair",
+        "hex": "#F5ECCB",
+        "codeDMC": "677"
+    },
+    {
+        "Id": "brun-noisette-clair",
+        "name": "Brun noisette clair",
+        "hex": "#C69F7B",
+        "codeDMC": "422"
+    },
+    {
+        "Id": "brun-noisette",
+        "name": "Brun noisette",
+        "hex": "#B78B61",
+        "codeDMC": "3828"
+    },
+    {
+        "Id": "noisette-brun-fonce",
+        "name": "Noisette Brun Foncé",
+        "hex": "#A07042",
+        "codeDMC": "420"
+    },
+    {
+        "Id": "brun-noisette-tres-fonce",
+        "name": "Brun noisette très foncé",
+        "hex": "#835E39",
+        "codeDMC": "869"
+    },
+    {
+        "Id": "topaze",
+        "name": "Topaze",
+        "hex": "#E4B468",
+        "codeDMC": "728"
+    },
+    {
+        "Id": "topaze-moyenne",
+        "name": "Topaze moyenne",
+        "hex": "#CE9124",
+        "codeDMC": "783"
+    },
+    {
+        "Id": "topaze-foncee",
+        "name": "Topaze foncée",
+        "hex": "#AE7720",
+        "codeDMC": "782"
+    },
+    {
+        "Id": "topaze-tres-foncee",
+        "name": "Topaze très foncée",
+        "hex": "#A26D20",
+        "codeDMC": "781"
+    },
+    {
+        "Id": "topaze-ultra-tres-foncee",
+        "name": "Topaze Ultra Très Foncé",
+        "hex": "#94631A",
+        "codeDMC": "780"
+    },
+    {
+        "Id": "lumiere-vieil-or",
+        "name": "Lumière vieil or",
+        "hex": "#E5CE97",
+        "codeDMC": "676"
+    },
+    {
+        "Id": "vieil-or-moyen",
+        "name": "Vieil Or Moyen",
+        "hex": "#D0A53E",
+        "codeDMC": "729"
+    },
+    {
+        "Id": "vieil-or-fonce",
+        "name": "Vieil or foncé",
+        "hex": "#BC8D0E",
+        "codeDMC": "680"
+    },
+    {
+        "Id": "vieil-or-et-noir",
+        "name": "Vieil or et noir",
+        "hex": "#A98204",
+        "codeDMC": "3829"
+    },
+    {
+        "Id": "lumiere-de-paille",
+        "name": "Lumière de paille",
+        "hex": "#F6DC98",
+        "codeDMC": "3822"
+    },
+    {
+        "Id": "paille",
+        "name": "Paille",
+        "hex": "#F3CE75",
+        "codeDMC": "3821"
+    },
+    {
+        "Id": "paille-foncee",
+        "name": "Paille foncée",
+        "hex": "#DFB65F",
+        "codeDMC": "3820"
+    },
+    {
+        "Id": "paille-tres-foncee",
+        "name": "Paille très foncée",
+        "hex": "#CD9D37",
+        "codeDMC": "3852"
+    },
+    {
+        "Id": "lumiere-au-citron",
+        "name": "Lumière au citron",
+        "hex": "#FFFB8B",
+        "codeDMC": "445"
+    },
+    {
+        "Id": "citron",
+        "name": "Citron",
+        "hex": "#FDED54",
+        "codeDMC": "307"
+    },
+    {
+        "Id": "canari-brillant",
+        "name": "Canari brillant",
+        "hex": "#FFE300",
+        "codeDMC": "973"
+    },
+    {
+        "Id": "citron-noir",
+        "name": "Citron noir",
+        "hex": "#FFD600",
+        "codeDMC": "444"
+    },
+    {
+        "Id": "jaune-dore-tres-clair",
+        "name": "Jaune doré très clair",
+        "hex": "#FDF9CD",
+        "codeDMC": "3078"
+    },
+    {
+        "Id": "topaze-tres-claire",
+        "name": "Topaze très claire",
+        "hex": "#FFF1AF",
+        "codeDMC": "727"
+    },
+    {
+        "Id": "lumiere-topaze",
+        "name": "Lumière Topaze",
+        "hex": "#FDD755",
+        "codeDMC": "726"
+    },
+    {
+        "Id": "topaze-moyenne-claire",
+        "name": "Topaze moyenne claire",
+        "hex": "#FFC840",
+        "codeDMC": "725"
+    },
+    {
+        "Id": "canari-profond",
+        "name": "Canari profond",
+        "hex": "#FFB515",
+        "codeDMC": "972"
+    },
+    {
+        "Id": "jaune-pale-clair",
+        "name": "Jaune pâle clair",
+        "hex": "#FFE9AD",
+        "codeDMC": "745"
+    },
+    {
+        "Id": "jaune-pale",
+        "name": "Jaune pâle",
+        "hex": "#FFE793",
+        "codeDMC": "744"
+    },
+    {
+        "Id": "jaune-moyen",
+        "name": "Jaune Moyen",
+        "hex": "#FED376",
+        "codeDMC": "743"
+    },
+    {
+        "Id": "lumiere-mandarine",
+        "name": "Lumière de mandarine",
+        "hex": "#FFBF57",
+        "codeDMC": "742"
+    },
+    {
+        "Id": "mandarine-moyenne",
+        "name": "Mandarine moyenne",
+        "hex": "#FFA32B",
+        "codeDMC": "741"
+    },
+    {
+        "Id": "tangerine",
+        "name": "Tangerine",
+        "hex": "#FF8B00",
+        "codeDMC": "740"
+    },
+    {
+        "Id": "lumiere-de-citrouille",
+        "name": "Lumière de citrouille",
+        "hex": "#F78B13",
+        "codeDMC": "970"
+    },
+    {
+        "Id": "citrouille",
+        "name": "Citrouille",
+        "hex": "#F67F00",
+        "codeDMC": "971"
+    },
+    {
+        "Id": "orange-brulee",
+        "name": "Orange brûlée",
+        "hex": "#FF7B4D",
+        "codeDMC": "947"
+    },
+    {
+        "Id": "orange-brulee-moyenne",
+        "name": "Orange brûlée moyenne",
+        "hex": "#EB6307",
+        "codeDMC": "946"
+    },
+    {
+        "Id": "orange-brule-fonce",
+        "name": "Orange brûlé foncé",
+        "hex": "#D15807",
+        "codeDMC": "900"
+    },
+    {
+        "Id": "abricot-tres-leger",
+        "name": "Abricot Très Léger",
+        "hex": "#FFDED5",
+        "codeDMC": "967"
+    },
+    {
+        "Id": "abricot-leger",
+        "name": "Abricot Léger",
+        "hex": "#FECDC2",
+        "codeDMC": "3824"
+    },
+    {
+        "Id": "abricot",
+        "name": "Abricot",
+        "hex": "#FCAB98",
+        "codeDMC": "3341"
+    },
+    {
+        "Id": "abricot-moyen",
+        "name": "Abricot moyen",
+        "hex": "#FF836F",
+        "codeDMC": "3340"
+    },
+    {
+        "Id": "orange-brulee-brillant",
+        "name": "Orange brûlé brillant",
+        "hex": "#FD5D35",
+        "codeDMC": "608"
+    },
+    {
+        "Id": "orange-rouge-vif",
+        "name": "Orange Rouge Vif",
+        "hex": "#FA3203",
+        "codeDMC": "606"
+    },
+    {
+        "Id": "lumiere-fauve",
+        "name": "Lumière fauve",
+        "hex": "#FFE2CF",
+        "codeDMC": "951"
+    },
+    {
+        "Id": "acajou-ultra-tres-leger",
+        "name": "Acajou Ultra Très Léger",
+        "hex": "#FFD3B5",
+        "codeDMC": "3856"
+    },
+    {
+        "Id": "orange-epicee-legere",
+        "name": "Orange épicée légère",
+        "hex": "#F7976F",
+        "codeDMC": "722"
+    },
+    {
+        "Id": "orange-epicee-moyenne",
+        "name": "Orange épicée moyenne",
+        "hex": "#F27842",
+        "codeDMC": "721"
+    },
+    {
+        "Id": "orange-epicee-foncee",
+        "name": "Orange épicée foncée",
+        "hex": "#E55C1F",
+        "codeDMC": "720"
+    },
+    {
+        "Id": "citrouille-pale",
+        "name": "Citrouille pâle",
+        "hex": "#FDBD96",
+        "codeDMC": "3825"
+    },
+    {
+        "Id": "lumiere-en-cuivre",
+        "name": "Lumière en cuivre",
+        "hex": "#E27323",
+        "codeDMC": "922"
+    },
+    {
+        "Id": "cuivre",
+        "name": "Cuivre",
+        "hex": "#C66218",
+        "codeDMC": "921"
+    },
+    {
+        "Id": "cuivre-moyen",
+        "name": "Cuivre moyen",
+        "hex": "#AC5414",
+        "codeDMC": "920"
+    },
+    {
+        "Id": "cuivre-rouge",
+        "name": "Cuivre rouge",
+        "hex": "#A64510",
+        "codeDMC": "919"
+    },
+    {
+        "Id": "rouge-cuivre-fonce",
+        "name": "Rouge Cuivre Foncé",
+        "hex": "#82340A",
+        "codeDMC": "918"
+    },
+    {
+        "Id": "fauve-vy-light",
+        "name": "Fauve Vy Light",
+        "hex": "#FFEEE3",
+        "codeDMC": "3770"
+    },
+    {
+        "Id": "fauve",
+        "name": "Fauve",
+        "hex": "#FBD5BB",
+        "codeDMC": "945"
+    },
+    {
+        "Id": "acajou-tres-clair",
+        "name": "Acajou très clair",
+        "hex": "#F7A777",
+        "codeDMC": "402"
+    },
+    {
+        "Id": "acajou-clair",
+        "name": "Acajou clair",
+        "hex": "#CF7939",
+        "codeDMC": "3776"
+    },
+    {
+        "Id": "acajou-moyen",
+        "name": "Acajou moyen",
+        "hex": "#B35F2B",
+        "codeDMC": "301"
+    },
+    {
+        "Id": "acajou-fonce",
+        "name": "Acajou foncé",
+        "hex": "#8F430F",
+        "codeDMC": "400"
+    },
+    {
+        "Id": "acajou-tres-fonce",
+        "name": "Acajou très foncé",
+        "hex": "#6F2F00",
+        "codeDMC": "300"
+    },
+    {
+        "Id": "jaune-ultra-pale",
+        "name": "Jaune Ultra Pâle",
+        "hex": "#FFFDE3",
+        "codeDMC": "3823"
+    },
+    {
+        "Id": "lumiere-doree-dautomne",
+        "name": "Lumière dorée d'automne",
+        "hex": "#FAD396",
+        "codeDMC": "3855"
+    },
+    {
+        "Id": "or-dautomne-moyen",
+        "name": "Or d'automne moyen",
+        "hex": "#F2AF68",
+        "codeDMC": "3854"
+    },
+    {
+        "Id": "automne-dore-fonce",
+        "name": "Automne doré foncé",
+        "hex": "#F29746",
+        "codeDMC": "3853"
+    },
+    {
+        "Id": "brun-dore-pale",
+        "name": "Brun doré pâle",
+        "hex": "#F7BB77",
+        "codeDMC": "3827"
+    },
+    {
+        "Id": "brun-dore-clair",
+        "name": "Brun doré clair",
+        "hex": "#DC9C56",
+        "codeDMC": "977"
+    },
+    {
+        "Id": "brun-dore-moyen",
+        "name": "Brun doré moyen",
+        "hex": "#C28142",
+        "codeDMC": "976"
+    },
+    {
+        "Id": "brun-dore",
+        "name": "Brun doré",
+        "hex": "#AD7239",
+        "codeDMC": "3826"
+    },
+    {
+        "Id": "brun-dore-fonce",
+        "name": "Brun doré foncé",
+        "hex": "#914F12",
+        "codeDMC": "975"
+    },
+    {
+        "Id": "peche-tres-claire",
+        "name": "Pêche très claire",
+        "hex": "#FEE7DA",
+        "codeDMC": "948"
+    },
+    {
+        "Id": "peche-legere",
+        "name": "Pêche légère",
+        "hex": "#F7CBBF",
+        "codeDMC": "754"
+    },
+    {
+        "Id": "terre-cuite-ultra-tres-legere",
+        "name": "Terre Cuite Ultra Très Légère",
+        "hex": "#F4BBA9",
+        "codeDMC": "3771"
+    },
+    {
+        "Id": "terre-cuite-tres-claire",
+        "name": "Terre cuite très claire",
+        "hex": "#EEAA9B",
+        "codeDMC": "758"
+    },
+    {
+        "Id": "lampe-en-terre-cuite",
+        "name": "Lampe en terre cuite",
+        "hex": "#D98978",
+        "codeDMC": "3778"
+    },
+    {
+        "Id": "terre-cuite-medium",
+        "name": "Terre cuite médium",
+        "hex": "#C56A5B",
+        "codeDMC": "356"
+    },
+    {
+        "Id": "terre-cuite",
+        "name": "Terre cuite",
+        "hex": "#BC5544",
+        "codeDMC": "3830"
+    },
+    {
+        "Id": "terre-cuite-foncee",
+        "name": "Terre cuite foncée",
+        "hex": "#984436",
+        "codeDMC": "355"
+    },
+    {
+        "Id": "terre-cuite-tres-foncee",
+        "name": "Terre cuite très foncée",
+        "hex": "#863022",
+        "codeDMC": "3777"
+    },
+    {
+        "Id": "bois-de-rose-ultra-tres-leger",
+        "name": "Bois de rose ultra très léger",
+        "hex": "#F8CAC8",
+        "codeDMC": "3779"
+    },
+    {
+        "Id": "lumiere-en-bois-de-rose",
+        "name": "Lumière en bois de rose",
+        "hex": "#BA8B7C",
+        "codeDMC": "3859"
+    },
+    {
+        "Id": "bois-de-rose-moyen",
+        "name": "Bois de rose moyen",
+        "hex": "#964A3F",
+        "codeDMC": "3858"
+    },
+    {
+        "Id": "bois-de-rose-fonce",
+        "name": "Bois de rose foncé",
+        "hex": "#68251A",
+        "codeDMC": "3857"
+    },
+    {
+        "Id": "sable-du-desert-tres-leger",
+        "name": "Sable du désert très léger",
+        "hex": "#F3E1D7",
+        "codeDMC": "3774"
+    },
+    {
+        "Id": "lumiere-de-sable-du-desert",
+        "name": "Lumière de sable du désert",
+        "hex": "#EED3C4",
+        "codeDMC": "950"
+    },
+    {
+        "Id": "sable-du-desert",
+        "name": "Sable du désert",
+        "hex": "#C48E70",
+        "codeDMC": "3064"
+    },
+    {
+        "Id": "sable-du-desert-moyen",
+        "name": "Sable du désert moyen",
+        "hex": "#BB8161",
+        "codeDMC": "407"
+    },
+    {
+        "Id": "sable-du-desert-sombre",
+        "name": "Sable du désert sombre",
+        "hex": "#B67552",
+        "codeDMC": "3773"
+    },
+    {
+        "Id": "sable-du-desert-tres-fonce",
+        "name": "Sable du désert très foncé",
+        "hex": "#A06C50",
+        "codeDMC": "3772"
+    },
+    {
+        "Id": "sable-du-desert-ultra-tres-fonce",
+        "name": "Sable du désert ultra très foncé",
+        "hex": "#875539",
+        "codeDMC": "632"
+    },
+    {
+        "Id": "coquille-gris-clair",
+        "name": "Coquille Gris Clair",
+        "hex": "#D7CECB",
+        "codeDMC": "453"
+    },
+    {
+        "Id": "coquillage-gris-moyen",
+        "name": "Coquillage Gris Moyen",
+        "hex": "#C0B3AE",
+        "codeDMC": "452"
+    },
+    {
+        "Id": "coquille-gris-fonce",
+        "name": "Coquille Gris Foncé",
+        "hex": "#917B73",
+        "codeDMC": "451"
+    },
+    {
+        "Id": "cacao-leger",
+        "name": "Cacao léger",
+        "hex": "#A68881",
+        "codeDMC": "3861"
+    },
+    {
+        "Id": "cacao",
+        "name": "Cacao",
+        "hex": "#7D5D57",
+        "codeDMC": "3860"
+    },
+    {
+        "Id": "cacao-noir",
+        "name": "Cacao Noir",
+        "hex": "#624B45",
+        "codeDMC": "779"
+    },
+    {
+        "Id": "creme",
+        "name": "Crème",
+        "hex": "#FFFBEF",
+        "codeDMC": "712"
+    },
+    {
+        "Id": "tan-ultra-tres-clair",
+        "name": "Tan Ultra Très Clair",
+        "hex": "#F8E4C8",
+        "codeDMC": "739"
+    },
+    {
+        "Id": "tan-tres-clair",
+        "name": "Tan très clair",
+        "hex": "#ECCC9E",
+        "codeDMC": "738"
+    },
+    {
+        "Id": "tan-clair",
+        "name": "Tan clair",
+        "hex": "#E4BB8E",
+        "codeDMC": "437"
+    },
+    {
+        "Id": "tanne",
+        "name": "Tanné",
+        "hex": "#CB9051",
+        "codeDMC": "436"
+    },
+    {
+        "Id": "marron-tres-clair",
+        "name": "Marron très clair",
+        "hex": "#B87748",
+        "codeDMC": "435"
+    },
+    {
+        "Id": "lumiere-marron",
+        "name": "Lumière marron",
+        "hex": "#985E33",
+        "codeDMC": "434"
+    },
+    {
+        "Id": "brun-moyen",
+        "name": "Brun moyen",
+        "hex": "#7A451F",
+        "codeDMC": "433"
+    },
+    {
+        "Id": "cafe-brun-fonce",
+        "name": "Café Brun Foncé",
+        "hex": "#653919",
+        "codeDMC": "801"
+    },
+    {
+        "Id": "cafe-brun-tres-fonce",
+        "name": "Café Brun Très Foncé",
+        "hex": "#492A13",
+        "codeDMC": "898"
+    },
+    {
+        "Id": "brun-cafe-ultra-fonce",
+        "name": "Brun café ultra foncé",
+        "hex": "#361F0E",
+        "codeDMC": "938"
+    },
+    {
+        "Id": "noir-marron",
+        "name": "Noir Marron",
+        "hex": "#1E1108",
+        "codeDMC": "3371"
+    },
+    {
+        "Id": "beige-marron-ultra-tres-clair",
+        "name": "Beige Marron Ultra Très Clair",
+        "hex": "#F2E3CE",
+        "codeDMC": "543"
+    },
+    {
+        "Id": "moka-beige-clair",
+        "name": "Moka Beige Clair",
+        "hex": "#CBB69C",
+        "codeDMC": "3864"
+    },
+    {
+        "Id": "beige-moka-moyen",
+        "name": "Beige Moka Moyen",
+        "hex": "#A4835C",
+        "codeDMC": "3863"
+    },
+    {
+        "Id": "moka-beige-fonce",
+        "name": "Moka Beige Foncé",
+        "hex": "#8A6E4E",
+        "codeDMC": "3862"
+    },
+    {
+        "Id": "brun-moka-tres-fonce",
+        "name": "Brun Moka Très Foncé",
+        "hex": "#4B3C2A",
+        "codeDMC": "3031"
+    },
+    {
+        "Id": "blanc-comme-neige",
+        "name": "Blanc comme neige",
+        "hex": "#FFFFFF",
+        "codeDMC": "B5200"
+    },
+    {
+        "Id": "blanc",
+        "name": "Blanc",
+        "hex": "#FCFBF8",
+        "codeDMC": "Blanc"
+    },
+    {
+        "Id": "blanc-d-hiver",
+        "name": "Blanc d'hiver",
+        "hex": "#F9F7F1",
+        "codeDMC": "3865"
+    },
+    {
+        "Id": "ecru",
+        "name": "Écru",
+        "hex": "#F0EADA",
+        "codeDMC": "Écru"
+    },
+    {
+        "Id": "beige-gris-clair",
+        "name": "Beige Gris Clair",
+        "hex": "#E7E2D3",
+        "codeDMC": "822"
+    },
+    {
+        "Id": "beige-gris-moyen",
+        "name": "Beige Gris Moyen",
+        "hex": "#DDD8CB",
+        "codeDMC": "644"
+    },
+    {
+        "Id": "beige-gris-fonce",
+        "name": "Beige Gris Foncé",
+        "hex": "#A49878",
+        "codeDMC": "642"
+    },
+    {
+        "Id": "beige-gris-tres-fonce",
+        "name": "Beige Gris Très Foncé",
+        "hex": "#857B61",
+        "codeDMC": "640"
+    },
+    {
+        "Id": "marron-gris-fonce",
+        "name": "Marron Gris Foncé",
+        "hex": "#625D50",
+        "codeDMC": "3787"
+    },
+    {
+        "Id": "brun-gris-tres-fonce",
+        "name": "Brun Gris Très Foncé",
+        "hex": "#4F4B41",
+        "codeDMC": "3021"
+    },
+    {
+        "Id": "marron-gris-tres-clair",
+        "name": "Marron Gris Très Clair",
+        "hex": "#EBEAE7",
+        "codeDMC": "3024"
+    },
+    {
+        "Id": "marron-gris-clair",
+        "name": "Marron Gris Clair",
+        "hex": "#B1AA97",
+        "codeDMC": "3023"
+    },
+    {
+        "Id": "marron-gris-moyen",
+        "name": "Brun Gris Moyen",
+        "hex": "#8E9078",
+        "codeDMC": "3022"
+    },
+    {
+        "Id": "gris-cendre-tres-clair",
+        "name": "Gris cendré très clair",
+        "hex": "#636458",
+        "codeDMC": "535"
+    },
+    {
+        "Id": "brun-moka-tres-clair",
+        "name": "Brun Moka Très Clair",
+        "hex": "#E3D8CC",
+        "codeDMC": "3033"
+    },
+    {
+        "Id": "brun-moka-clair",
+        "name": "Brun Moka Clair",
+        "hex": "#D2BCA6",
+        "codeDMC": "3782"
+    },
+    {
+        "Id": "brun-moka-moyen",
+        "name": "Brun Moka Moyen",
+        "hex": "#B39F8B",
+        "codeDMC": "3032"
+    },
+    {
+        "Id": "beige-gris-ultra-fonce",
+        "name": "Beige Gris Ultra Foncé",
+        "hex": "#7F6A55",
+        "codeDMC": "3790"
+    },
+    {
+        "Id": "moka-brun-fonce",
+        "name": "Moka Brun Foncé",
+        "hex": "#6B5743",
+        "codeDMC": "3781"
+    },
+    {
+        "Id": "brun-moka-ultra-tres-clair",
+        "name": "Brun Moka Ultra Très Clair",
+        "hex": "#FAF6F0",
+        "codeDMC": "3866"
+    },
+    {
+        "Id": "beige-marron-tres-clair",
+        "name": "Beige Marron Très Clair",
+        "hex": "#D1BAA1",
+        "codeDMC": "842"
+    },
+    {
+        "Id": "beige-marron-clair",
+        "name": "Beige Marron Clair",
+        "hex": "#B69B7E",
+        "codeDMC": "841"
+    },
+    {
+        "Id": "beige-marron-moyen",
+        "name": "Beige Marron Moyen",
+        "hex": "#9A7C5C",
+        "codeDMC": "840"
+    },
+    {
+        "Id": "beige-marron-fonce",
+        "name": "Beige Marron Foncé",
+        "hex": "#675541",
+        "codeDMC": "839"
+    },
+    {
+        "Id": "beige-marron-tres-fonce",
+        "name": "Beige Marron Très Foncé",
+        "hex": "#594937",
+        "codeDMC": "838"
+    },
+    {
+        "Id": "gris-castor-tres-clair",
+        "name": "Gris castor très clair",
+        "hex": "#E6E8E8",
+        "codeDMC": "3072"
+    },
+    {
+        "Id": "gris-castor-clair",
+        "name": "Gris castor clair",
+        "hex": "#BCB4AC",
+        "codeDMC": "648"
+    },
+    {
+        "Id": "gris-castor-moyen",
+        "name": "Gris castor moyen",
+        "hex": "#B0A69C",
+        "codeDMC": "647"
+    },
+    {
+        "Id": "gris-castor-fonce",
+        "name": "Gris castor foncé",
+        "hex": "#877D73",
+        "codeDMC": "646"
+    },
+    {
+        "Id": "gris-castor-tres-fonce",
+        "name": "Gris castor très foncé",
+        "hex": "#6E655C",
+        "codeDMC": "645"
+    },
+    {
+        "Id": "gris-castor-ultra-fonce",
+        "name": "Gris castor ultra foncé",
+        "hex": "#484848",
+        "codeDMC": "844"
+    },
+    {
+        "Id": "gris-perle-tres-clair",
+        "name": "Gris perle très clair",
+        "hex": "#ECECEC",
+        "codeDMC": "762"
+    },
+    {
+        "Id": "gris-perle",
+        "name": "Gris perle",
+        "hex": "#D3D3D6",
+        "codeDMC": "415"
+    },
+    {
+        "Id": "gris-acier-clair",
+        "name": "Gris acier clair",
+        "hex": "#ABABAB",
+        "codeDMC": "318"
+    },
+    {
+        "Id": "gris-acier-fonce",
+        "name": "Gris acier foncé",
+        "hex": "#8C8C8C",
+        "codeDMC": "414"
+    },
+    {
+        "Id": "etain-tres-leger",
+        "name": "Étain très léger",
+        "hex": "#D1D1D1",
+        "codeDMC": "168"
+    },
+    {
+        "Id": "lampe-en-etain",
+        "name": "Lampe en étain",
+        "hex": "#848484",
+        "codeDMC": "169"
+    },
+    {
+        "Id": "gris-etain",
+        "name": "Gris étain",
+        "hex": "#6C6C6C",
+        "codeDMC": "317"
+    },
+    {
+        "Id": "gris-etain-fonce",
+        "name": "Gris étain foncé",
+        "hex": "#565656",
+        "codeDMC": "413"
+    },
+    {
+        "Id": "gris-etain-tres-fonce",
+        "name": "Gris étain très foncé",
+        "hex": "#424242",
+        "codeDMC": "3799"
+    },
+    {
+        "Id": "noir",
+        "name": "Noir",
+        "hex": "#000000",
+        "codeDMC": "310"
+    },
+    {
+        "Id": "boite-blanche",
+        "name": "Boîte blanche",
+        "hex": "#E3E3E6",
+        "codeDMC": "01"
+    },
+    {
+        "Id": "etain",
+        "name": "Étain",
+        "hex": "#D7D7D8",
+        "codeDMC": "02"
+    },
+    {
+        "Id": "etain-moyen",
+        "name": "Étain moyen",
+        "hex": "#B8B8BB",
+        "codeDMC": "03"
+    },
+    {
+        "Id": "etain-fonce",
+        "name": "Étain foncé",
+        "hex": "#AEAEB1",
+        "codeDMC": "04"
+    },
+    {
+        "Id": "lampe-en-bois-flotte",
+        "name": "Lampe en bois flotté",
+        "hex": "#E3CCBE",
+        "codeDMC": "05"
+    },
+    {
+        "Id": "bois-flotte-moyen-clair",
+        "name": "Bois flotté moyen clair",
+        "hex": "#DCC6B8",
+        "codeDMC": "06"
+    },
+    {
+        "Id": "bois-flotte",
+        "name": "Bois flotté",
+        "hex": "#8F7B6E",
+        "codeDMC": "07"
+    },
+    {
+        "Id": "bois-flotte-fonce",
+        "name": "Bois flotté foncé",
+        "hex": "#6A5046",
+        "codeDMC": "08"
+    },
+    {
+        "Id": "cacao-tres-noir",
+        "name": "Cacao très noir",
+        "hex": "#552014",
+        "codeDMC": "09"
+    },
+    {
+        "Id": "vert-tendre-tres-clair",
+        "name": "Vert tendre très clair",
+        "hex": "#EDFED9",
+        "codeDMC": "10"
+    },
+    {
+        "Id": "feu-vert-tendre",
+        "name": "Feu vert tendre",
+        "hex": "#E2EDB5",
+        "codeDMC": "11"
+    },
+    {
+        "Id": "vert-tendre",
+        "name": "Vert tendre",
+        "hex": "#CDD99A",
+        "codeDMC": "12"
+    },
+    {
+        "Id": "vert-nil-moyen-clair",
+        "name": "Vert Nil moyen clair",
+        "hex": "#BFF6E0",
+        "codeDMC": "13"
+    },
+    {
+        "Id": "vert-pomme-pale",
+        "name": "Vert pomme pâle",
+        "hex": "#D0FBB2",
+        "codeDMC": "14"
+    },
+    {
+        "Id": "vert-pomme",
+        "name": "Vert pomme",
+        "hex": "#D1EDA4",
+        "codeDMC": "15"
+    },
+    {
+        "Id": "lumiere-de-la-chartreuse",
+        "name": "Lumière de la Chartreuse",
+        "hex": "#C9C258",
+        "codeDMC": "16"
+    },
+    {
+        "Id": "prune-jaune-clair",
+        "name": "Prune jaune clair",
+        "hex": "#E5E272",
+        "codeDMC": "17"
+    },
+    {
+        "Id": "prune-jaune",
+        "name": "Prune jaune",
+        "hex": "#D9D56D",
+        "codeDMC": "18"
+    },
+    {
+        "Id": "or-d-automne-moyen-clair",
+        "name": "Or d'automne moyen clair",
+        "hex": "#F7C95F",
+        "codeDMC": "19"
+    },
+    {
+        "Id": "crevette",
+        "name": "Crevette",
+        "hex": "#F7AF93",
+        "codeDMC": "20"
+    },
+    {
+        "Id": "alizarine-legere",
+        "name": "Alizarine légère",
+        "hex": "#D79982",
+        "codeDMC": "21"
+    },
+    {
+        "Id": "alizarine",
+        "name": "Alizarine",
+        "hex": "#BC604E",
+        "codeDMC": "22"
+    },
+    {
+        "Id": "fleur-de-pommier",
+        "name": "Fleur de pommier",
+        "hex": "#EDE2ED",
+        "codeDMC": "23"
+    },
+    {
+        "Id": "lavande-blanche",
+        "name": "Lavande blanche",
+        "hex": "#E0D7EE",
+        "codeDMC": "24"
+    },
+    {
+        "Id": "lavande-ultra-legere",
+        "name": "Lavande Ultra Légère",
+        "hex": "#DAD2E9",
+        "codeDMC": "25"
+    },
+    {
+        "Id": "lavande-pale",
+        "name": "Lavande pâle",
+        "hex": "#D7CAE6",
+        "codeDMC": "26"
+    },
+    {
+        "Id": "violette-blanche",
+        "name": "Violette blanche",
+        "hex": "#F0EEF9",
+        "codeDMC": "27"
+    },
+    {
+        "Id": "aubergine-moyenne-legere",
+        "name": "Aubergine moyenne légère",
+        "hex": "#9086A9",
+        "codeDMC": "28"
+    },
+    {
+        "Id": "aubergine",
+        "name": "Aubergine",
+        "hex": "#674076",
+        "codeDMC": "29"
+    },
+    {
+        "Id": "myrtille-moyen-leger",
+        "name": "Myrtille Moyen Léger",
+        "hex": "#7D77A5",
+        "codeDMC": "30"
+    },
+    {
+        "Id": "myrtille",
+        "name": "Myrtille",
+        "hex": "#50518D",
+        "codeDMC": "31"
+    },
+    {
+        "Id": "myrtille-noir",
+        "name": "Myrtille Noir",
+        "hex": "#4D2E8A",
+        "codeDMC": "32"
+    },
+    {
+        "Id": "fuchsia",
+        "name": "Fuchsia",
+        "hex": "#9C599C",
+        "codeDMC": "33"
+    },
+    {
+        "Id": "fuschia-fonce",
+        "name": "Fuschia foncé",
+        "hex": "#7D3064",
+        "codeDMC": "34"
+    },
+    {
+        "Id": "fuschia-tres-fonce",
+        "name": "Fuschia Très Foncé",
+        "hex": "#46052D",
+        "codeDMC": "35"
+    }
+]
