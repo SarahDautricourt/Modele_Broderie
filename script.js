@@ -10,6 +10,15 @@ const canvasHeight = canvas.height;
 const reponse = await fetch('couleursDMC.json');
 const couleursDMC = await reponse.json();
 
+for (let i = 0; i < couleursDMC.length; i++) {
+    const choixCouleurs = couleursDMC[i];
+    console.log(choixCouleurs);
+    const gestionCouleurs = document.querySelector(".choix-couleurs");
+    const couleurElement = document.createElement("option");
+    couleurElement.style.background = choixCouleurs.hex;
+    gestionCouleurs.appendChild(couleurElement);
+}
+
 let grille = [];
 for (let i = 0; i < canvasWidth / gridSize; i++) {
     grille[i] = [];
@@ -57,7 +66,7 @@ canvas.addEventListener('click', function(event) {
     }
 });
 //Récupération du bouton de suppression
-const boutonSupprimer = document.querySelector(".bouton_suppression")
+const boutonSupprimer = document.querySelector(".bouton-suppression")
 
 //Création de la fonction suppression de la grille
 function suppressionGrille() {
