@@ -10,11 +10,22 @@ const canvasHeight = canvas.height;
 const reponse = await fetch('couleursDMC.json');
 const couleursDMC = await reponse.json();
 
+const gestionCouleurs = document.querySelector(".choix-couleurs");
+
+let couleurChoisi = '#000000'
+
+gestionCouleurs.addEventListener('change', function(event) {
+    couleurChoisi = event.target.value;
+    console.log(couleurChoisi); // Vérifie si tu récupères la bonne couleur
+});
+
+//Création des boutons de couleurs
 for (let i = 0; i < couleursDMC.length; i++) {
     const choixCouleurs = couleursDMC[i];
-    console.log(choixCouleurs);
-    const gestionCouleurs = document.querySelector(".choix-couleurs");
+    // console.log(choixCouleurs);
+
     const couleurElement = document.createElement("option");
+    couleurElement.textContent = choixCouleurs.hex;
     couleurElement.style.background = choixCouleurs.hex;
     gestionCouleurs.appendChild(couleurElement);
 }
@@ -26,6 +37,7 @@ for (let i = 0; i < canvasWidth / gridSize; i++) {
         grille[i][j] = false; // Par défaut, toutes les cases sont vides
     }
 }
+
 
 // Fonction pour dessiner la grille
 function drawGrid() {
@@ -61,7 +73,7 @@ canvas.addEventListener('click', function(event) {
         grille[gridX][gridY] = false; // Met à jour l'état à "vide"
     } else {
         // Sinon, on remplit la case
-        fillSquare(gridX, gridY, '#000000'); // Remplir de noir
+        fillSquare(gridX, gridY, couleurChoisi); // Remplir de noir
         grille[gridX][gridY] = true; // Met à jour l'état à "rempli"
     }
 });
