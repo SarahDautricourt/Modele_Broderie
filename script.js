@@ -14,7 +14,7 @@ const gestionCouleurs = document.querySelector(".choix-couleurs");
 
 let couleurChoisi = '#000000'
 
-gestionCouleurs.addEventListener('change', function(event) {
+gestionCouleurs.addEventListener('change', (event) => {
     couleurChoisi = event.target.value;
     console.log(couleurChoisi); // Vérifie si tu récupères la bonne couleur
 });
@@ -22,10 +22,9 @@ gestionCouleurs.addEventListener('change', function(event) {
 //Création des boutons de couleurs
 for (let i = 0; i < couleursDMC.length; i++) {
     const choixCouleurs = couleursDMC[i];
-    // console.log(choixCouleurs);
-
     const couleurElement = document.createElement("option");
-    couleurElement.textContent = choixCouleurs.hex;
+    couleurElement.textContent = choixCouleurs.codeDMC;
+    couleurElement.value = choixCouleurs.hex;
     couleurElement.style.background = choixCouleurs.hex;
     gestionCouleurs.appendChild(couleurElement);
 }
@@ -57,7 +56,7 @@ function fillSquare(x, y, color) {
 }
 
 // Écouteur d'événements pour détecter le clic de l'utilisateur
-canvas.addEventListener('click', function(event) {
+canvas.addEventListener('click', (event) => {
     // Récupère la position du clic dans le canvas
     const rect = canvas.getBoundingClientRect();
     const mouseX = event.clientX - rect.left;
@@ -67,16 +66,27 @@ canvas.addEventListener('click', function(event) {
     const gridX = Math.floor(mouseX / gridSize);
     const gridY = Math.floor(mouseY / gridSize);
     
-    if (grille[gridX][gridY]) {
-        // Si la case est remplie, on efface
-        fillSquare(gridX, gridY, 'white'); // Effacer en mettant la couleur de fond (blanc)
-        grille[gridX][gridY] = false; // Met à jour l'état à "vide"
-    } else {
-        // Sinon, on remplit la case
-        fillSquare(gridX, gridY, couleurChoisi); // Remplir de noir
-        grille[gridX][gridY] = true; // Met à jour l'état à "rempli"
-    }
+    
+    fillSquare(gridX, gridY, couleurChoisi); // Remplir de noir
+    grille[gridX][gridY] = true; // Met à jour l'état à "rempli"
 });
+
+canvas.addEventListener('contextmenu', (event) => {
+    // Empêche le menu contextuel par défaut d'apparaître
+    event.preventDefault();
+    
+    // Récupère la position du clic dans le canvas
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+    
+    // Convertit la position en coordonnées de grille
+    const gridX = Math.floor(mouseX / gridSize);
+    const gridY = Math.floor(mouseY / gridSize);
+
+    fillSquare(gridX, gridY, 'white'); // Effacer en mettant la couleur de fond (blanc)
+    grille[gridX][gridY] = false; // Met à jour l'état à "vide"
+})
 //Récupération du bouton de suppression
 const boutonSupprimer = document.querySelector(".bouton-suppression")
 
@@ -93,6 +103,46 @@ function suppressionGrille() {
     drawGrid(); // Redessine la grille
     }
 }
+
+const gomme = document.querySelector(".ma-gomme")
+
+gomme.addEventListener('click', (event) => {
+    canvas.addEventListener('click', (event) => {
+        // Empêche le menu contextuel par défaut d'apparaître
+        event.preventDefault();
+        
+        // Récupère la position du clic dans le canvas
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
+        
+        // Convertit la position en coordonnées de grille
+        const gridX = Math.floor(mouseX / gridSize);
+        const gridY = Math.floor(mouseY / gridSize);
+    
+        fillSquare(gridX, gridY, 'white'); // Effacer en mettant la couleur de fond (blanc)
+        grille[gridX][gridY] = false; // Met à jour l'état à "vide"
+    });
+});
+
+const stylo = document.querySelector(".mon-stylo")
+
+stylo.addEventListener('click', (event) => {
+    canvas.addEventListener('click', (event) => {
+        // Récupère la position du clic dans le canvas
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
+        
+        // Convertit la position en coordonnées de grille
+        const gridX = Math.floor(mouseX / gridSize);
+        const gridY = Math.floor(mouseY / gridSize);
+        
+        
+        fillSquare(gridX, gridY, couleurChoisi); // Remplir de noir
+        grille[gridX][gridY] = true; // Met à jour l'état à "rempli"
+    });
+});
 
 boutonSupprimer.addEventListener('click', (event) => {
     suppressionGrille()
