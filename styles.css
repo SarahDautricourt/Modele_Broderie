@@ -15,13 +15,13 @@ h3:hover {
     color: rgb(19, 211, 201);
 }
 
-#broderieCanvas {
-    background-color: white;
-}
-
 .choix-couleurs {
     height: 20px;
     width: 20px;
 }
 
-
+.mon-canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -17,6 +17,37 @@ let couleurChoisi = '#000000';
 
 let outilActif = "stylo";
 
+const grilleClaire = document.querySelector(".ma-grille-claire")
+
+const grilleSombre = document.querySelector(".ma-grille-sombre")
+
+canvas.style.backgroundColor = 'white'
+ctx.strokeStyle = '#ddd';
+
+function changerThemeGrille (theme) {
+    if (theme === 'clair') {
+        canvas.style.backgroundColor = 'white'; // Couleur de fond blanche pour thème clair
+        ctx.strokeStyle = '#ddd'; // Couleur des lignes de grille claire
+        couleurChoisi = 'black';
+        outilActif = "stylo";
+    } else if (theme === 'sombre') {
+        canvas.style.backgroundColor = 'black'; // Couleur de fond noire pour thème sombre
+        ctx.strokeStyle = '#555'; // Couleur des lignes de grille sombre
+        couleurChoisi = 'white';
+        outilActif = "stylo";
+    }
+    // Redessiner la grille après le changement de thème
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Efface le canvas
+    drawGrid(); // Redessine la grille avec la nouvelle couleur
+};
+
+grilleClaire.addEventListener('click', (event) => {
+    changerThemeGrille('clair');
+});
+
+grilleSombre.addEventListener('click', (event) => {
+    changerThemeGrille('sombre');
+});
 //Récupération de la sélection de la couleur
 gestionCouleurs.addEventListener('change', (event) => {
     couleurChoisi = event.target.value;
@@ -36,7 +67,7 @@ let grille = [];
 for (let i = 0; i < canvasWidth / gridSize; i++) {
     grille[i] = [];
     for (let j = 0; j < canvasHeight / gridSize; j++) {
-        grille[i][j] = { rempli: false, couleur: 'white' }; // Par défaut, case vide et blanche
+        grille[i][j] = { rempli: false}; // Par défaut, case vide et blanche
     };
 };
 
@@ -44,7 +75,6 @@ for (let i = 0; i < canvasWidth / gridSize; i++) {
 function drawGrid() {
     for (let x = 0; x <= canvasWidth; x += gridSize) {
         for (let y = 0; y <= canvasHeight; y += gridSize) {
-            ctx.strokeStyle = '#ddd'; // Couleur des lignes
             ctx.strokeRect(x, y, gridSize, gridSize); // Dessine un carré
         };
     };
@@ -95,19 +125,25 @@ canvas.addEventListener('click', (event) => {
         grille[gridX][gridY].couleur = couleurChoisi;  // Met à jour la couleur
     } else if (outilActif === "gomme") {
         // Effacer la case (mettre en blanc)
-        fillSquare(gridX, gridY, 'white');
-        grille[gridX][gridY].rempli = false;
-        grille[gridX][gridY].couleur = 'white';
+        if (canvas.style.backgroundColor === 'white') {
+            fillSquare(gridX, gridY, 'white'); // Effacer en mettant la couleur de fond (blanc)
+            grille[gridX][gridY] = false; // Met à jour l'état à "vide"    
+        } else {
+            fillSquare(gridX, gridY, 'black'); // Effacer en mettant la couleur de fond (noir)
+            grille[gridX][gridY] = false; // Met à jour l'état à "vide"    
+        }
     } else if (outilActif === "pipette") {
-        // Récupérer la couleur de la case cliquée
+        // Vérifier que la case cliquée contient une couleur
         const couleurCase = grille[gridX][gridY].couleur;
-        console.log("Couleur récupérée par la pipette :", couleurCase);
-        couleurChoisi = couleurCase;  // Mettre à jour la couleur choisie
-        fillSquare(gridX, gridY, couleurChoisi); // Remplir de la couleur choisi
-        grille[gridX][gridY].couleur = couleurChoisi
-        outilActif = "stylo";
+        if (couleurCase) {  // Si la case a déjà une couleur
+            console.log("Couleur récupérée par la pipette :", couleurCase);
+            couleurChoisi = couleurCase;  // Mettre à jour la couleur choisie
+            outilActif = "stylo"; // L'outil actif redevient le stylo après avoir utilisé la pipette
+        } else {
+            console.log("La case est vide, aucune couleur à récupérer.");
+        }
     }
-});
+    });
 
 //Écouteur d'événements pour détecter le clic droit de l'utilisateur
 canvas.addEventListener('contextmenu', (event) => {
@@ -124,12 +160,16 @@ canvas.addEventListener('contextmenu', (event) => {
         const gridX = Math.floor(mouseX / gridSize);
         const gridY = Math.floor(mouseY / gridSize);
 
-        fillSquare(gridX, gridY, 'white'); // Effacer en mettant la couleur de fond (blanc)
-        grille[gridX][gridY] = false; // Met à jour l'état à "vide"
-    } else {
-        
+        if (canvas.style.backgroundColor === 'white') {
+            fillSquare(gridX, gridY, 'white'); // Effacer en mettant la couleur de fond (blanc)
+            grille[gridX][gridY] = false; // Met à jour l'état à "vide"    
+        } else {
+            fillSquare(gridX, gridY, 'black'); // Effacer en mettant la couleur de fond (noir)
+            grille[gridX][gridY] = false; // Met à jour l'état à "vide"    
+        }
+
+
     }
-    
 });
 
 //Récupération du bouton de suppression
