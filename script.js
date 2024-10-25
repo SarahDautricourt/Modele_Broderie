@@ -24,6 +24,28 @@ const grilleSombre = document.querySelector(".ma-grille-sombre")
 canvas.style.backgroundColor = 'white'
 ctx.strokeStyle = '#ddd';
 
+// Sélectionne les éléments de contrôle
+const largeurInput = document.getElementById('largeurCanvas');
+const hauteurInput = document.getElementById('hauteurCanvas');
+const boutonRedimensionner = document.getElementById('redimensionnerCanvas');
+
+// Fonction pour redimensionner le canvas
+function redimensionnerCanvas() {
+    // Récupérer les nouvelles dimensions
+    const nouvelleLargeur = parseInt(largeurInput.value);
+    const nouvelleHauteur = parseInt(hauteurInput.value);
+
+    // Mettre à jour la taille du canvas
+    canvas.width = nouvelleLargeur;
+    canvas.height = nouvelleHauteur;
+
+    // Redessiner la grille après redimensionnement
+    drawGrid();
+}
+
+// Événement sur le bouton pour redimensionner
+boutonRedimensionner.addEventListener('click', redimensionnerCanvas);
+
 function changerThemeGrille (theme) {
     if (theme === 'clair') {
         canvas.style.backgroundColor = 'white'; // Couleur de fond blanche pour thème clair
@@ -32,7 +54,7 @@ function changerThemeGrille (theme) {
         outilActif = "stylo";
     } else if (theme === 'sombre') {
         canvas.style.backgroundColor = 'black'; // Couleur de fond noire pour thème sombre
-        ctx.strokeStyle = '#555'; // Couleur des lignes de grille sombre
+        ctx.strokeStyle = '#303030'; // Couleur des lignes de grille sombre
         couleurChoisi = 'white';
         outilActif = "stylo";
     }
@@ -73,12 +95,13 @@ for (let i = 0; i < canvasWidth / gridSize; i++) {
 
 // Fonction pour dessiner la grille
 function drawGrid() {
-    for (let x = 0; x <= canvasWidth; x += gridSize) {
-        for (let y = 0; y <= canvasHeight; y += gridSize) {
-            ctx.strokeRect(x, y, gridSize, gridSize); // Dessine un carré
-        };
-    };
-};
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Efface tout le canvas avant de redessiner
+    for (let x = 0; x <= canvas.width; x += gridSize) {
+        for (let y = 0; y <= canvas.height; y += gridSize) {
+            ctx.strokeRect(x, y, gridSize, gridSize); // Dessine chaque case
+        }
+    }
+}
 
 // Fonction pour remplir un carré à la position cliquée
 function fillSquare(x, y, color) {
